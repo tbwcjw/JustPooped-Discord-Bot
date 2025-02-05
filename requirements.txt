@@ -1,0 +1,5 @@
+asyncio
+discord
+matplotlib
+numpy
+pillow
