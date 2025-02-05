@@ -1,4 +1,5 @@
-database/*
+database/__pycache__/
+database/app.db
 __pycache__/
 __pycache__/*
 *.pyc
