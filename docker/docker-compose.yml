@@ -1,0 +1,12 @@
+services:
+  bot:
+    image: python:3.10-slim
+    container_name: justpooped_bot
+    command: /bin/sh -c "pip install --upgrade pip && pip install -r /bot/requirements.txt && python /bot/main.py"
+    working_dir: /bot
+    volumes:
+      - ./bot:/bot:rw
+      - ./database:/bot/database:rw
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: always

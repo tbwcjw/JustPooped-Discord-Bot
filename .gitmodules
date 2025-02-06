@@ -1,0 +1,3 @@
+[submodule "docker/bot"]
+	path = docker/bot
+	url = https://github.com/tbwcjw/JustPooped-Discord-Bot
