@@ -82,7 +82,7 @@
 <hr>
 <h4 id='todo'>TODO</h4>
 <ul>
-    <li>Set up and publish a docker container, for easy install.</li>
+    <li><strike>Set up and publish a docker container, for easy install.</strike></li>
     <li>Implement i8ln, add translations for French and Spanish.</li>
 </ul>
 <hr>
