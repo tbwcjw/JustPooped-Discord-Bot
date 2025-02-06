@@ -224,7 +224,7 @@ class JustPoopedBot(commands.Bot):
 
     @log_execution_time
     async def show_user_stats(self, interaction: discord.Interaction, username: discord.Member):
-        cursor.execute(f'SELECT * from poops WHERE discord_id = {username.id} ORDER BY timestamp DESC')
+        cursor.execute(f'SELECT * from poops WHERE discord_id = {username.id} ORDER BY timestamp ASC')
         rows = cursor.fetchall()
         poop_count = len(rows)
         if(poop_count < 1):
